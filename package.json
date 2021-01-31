@@ -1,0 +1,30 @@
+{
+  "name": "backend-toolbox",
+  "version": "1.0.0",
+  "description": "Backend for toolbox technical test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --exit",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duvansh91/backend-toolbox.git"
+  },
+  "author": "Duvan Sarmiento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duvansh91/backend-toolbox/issues"
+  },
+  "homepage": "https://github.com/duvansh91/backend-toolbox#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "standard": "^16.0.3",
+    "supertest": "^6.1.3"
+  }
+}
