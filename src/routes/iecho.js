@@ -14,7 +14,7 @@ router.get('/', function (req, res, next) {
   if (text) {
     const reverseText = text.split('').reverse().join('')
     const palindrome = isPalindrome(text)
-    res.status(200).json({ text: reverseText, palindrome })
+    res.status(200).json({ text: reverseText, normalText: text, palindrome })
   } else {
     res.status(400).json({ error: 'no text' })
   }
