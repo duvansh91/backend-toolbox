@@ -9,7 +9,6 @@ describe('GET /', () => {
     expect(response.body).to.deep.equal(
       {
         text: 'leveL',
-        normalText: 'Level',
         palindrome: true
       }
     )
@@ -20,7 +19,6 @@ describe('GET /', () => {
     expect(response.body).to.deep.equal(
       {
         text: 'olleH',
-        normalText: 'Hello',
         palindrome: false
       }
     )
